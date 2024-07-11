@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuário Médico</title>
+    <style>
+        body {
+            font-size: 11px;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh;
+ */        }
+
+        .container {
+            width: 100%;
+            max-width: 700px;
+            padding: 15px;
+        }
+
+        .prontuario {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .content p {
+            margin: 5px 0;
+        }
+     
+        .content strong {
+            font-weight: bold;
+        }
+
+        .observacoes {
+            margin-top: 10px;
+        }
+
+        .observacoes textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            resize: vertical;
+        }
+
+        .assinatura {
+            margin-top: 10px;
+        }
+
+        .assinatura p {
+            margin: 5px 0;
+        }
+        .content textarea {
+        color: black;
+    }
+     .section.observacoes textarea {
+        color: black;
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="prontuario">
+        <h1>Prontuário Médico</h1>
+
+        <section class="section">
+            <h2>Dados do Paciente</h2>
+            <div class="content">
+                <p><strong>Nome:</strong>  Sr. Silva</p>
+                <p><strong>Idade:</strong> 73</p>
+                <p><strong>Sexo:</strong> Feminino</p>
+                <p><strong>Data de Nascimento:</strong> 01/01/1951</p>
+                <p><strong>Número de Identificação:</strong> 20240101</p>
+                <p><strong>Contato de Emergência:</strong> José, (71)999999999</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Sinais Vitais</h2>
+            <div class="content">
+                <p><strong>Pressão Arterial:</strong> 134 x 80 mmHg</p>
+                <p><strong>Frequência Cardíaca:</strong> 72 bpm</p>
+                <p><strong>Frequência Respiratória:</strong> 18 irpm</p>
+                <p><strong>Temperatura Corporal:</strong> 36,5 °C</p>
+                <p><strong>Saturação de Oxigênio:</strong> 78 % em ar ambiente.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Medicação</h2>
+            <div class="content">
+                <p><strong>Nome da Medicação:</strong> Amoxicilina 200 mg</p>
+                <p><strong>Dosagem:</strong> 5ml,administração (IV)</p>
+                <p><strong>Frequência:</strong> 2 vezes ao dia</p>
+                <p><strong>Observações:</strong> </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Cuidados</h2>
+            <div class="content">
+                <p>Monitoramento Contínuo, Administração de Medicação, Cuidados com a Higiene, Mobilização Segura, Cuidados com Alimentação e Hidratação, Avaliação de Pele, Educação ao Paciente e Família, Suporte Psicológico.</p>
+            </div>
+        </section>
+
+        <section class="section observacoes">
+            <h2>Observações</h2>
+            <div class="content">
+                <p>No dia de hoje, o paciente apresentou melhora significativa no quadro clínico. Sinais vitais estáveis, com pressão arterial de 140/80 mmHg, frequência cardíaca de 72 bpm, temperatura corporal de 36,7°C e saturação de oxigênio em 98% em ar ambiente. Relata redução da dor torácica, atualmente classificando-a como 2 em uma escala de 0 a 10. O apetite melhorou, conseguindo ingerir refeições completas sem náuseas ou vômitos. As eliminações estão regulares, com diurese adequada e evacuações normais. A medicação foi ajustada conforme necessidade, mantendo o tratamento antibiótico.</p>
+            </div>
+        </section>
+
+        <section class="section assinatura">
+            <h2>Assinatura</h2>
+            <div class="content">
+                <p><strong>Assinatura:</strong> Carolina Sant'Ana</p>
+                <p><strong>Data:</strong> 20/07/2024</p>
+                <p><strong>Cargo:</strong> Tecnica em enfermage</p>
+            </div>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>
